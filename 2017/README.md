@@ -8,6 +8,7 @@
 
 #### Summer
 - [June](june.md)
+- [July](july.md)
 - [August](august.md)
 
 #### Autumn
