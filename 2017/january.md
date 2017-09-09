@@ -128,7 +128,7 @@ so be careful about it**
 
 - NSEC_PER_SEC
 
-#### About notifications
+## About notifications
 - appears in iOS 3
 - remote silent in iOS 7
 - actionable in iOS 8
