@@ -9,4 +9,3 @@
 - 2 users - mobile and root
 - **Tools**: class-dump, Theos, Reveal App, IDA, Logos
 - For Hooking used `MSHookMessageEx` is for ObjC. `MSHookFunction` is for C / C++
-- 
