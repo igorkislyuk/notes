@@ -44,4 +44,10 @@
 ## 9
 
 - `NSTimer` retains object until it invalidated
+
+## 10
+
+- You must use `copy` for all basic Objective-C type (aka `NSString`, `NSArray`), because you can pass mutable subclass and change object behinds back.
+
+
 - to be continued...
