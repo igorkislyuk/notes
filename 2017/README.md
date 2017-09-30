@@ -13,3 +13,4 @@
 
 #### Autumn
 - [September](september.md)
+- [October](october.md)

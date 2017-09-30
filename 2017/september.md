@@ -50,4 +50,48 @@
 - You must use `copy` for all basic Objective-C type (aka `NSString`, `NSArray`), because you can pass mutable subclass and change object behinds back.
 
 
-- to be continued...
+## 30
+
+- optional can be compared
+- `typedef NS_OPTIONS();`
+- if you want to be able to intercept an assignment and "veto" it, use `vetoable()` instead of `observable()`
+- `lexicographicallyPrecedes`
+- **type constructors — such as optionals or arrays — that support a map operation are sometimes referred to as functors**
+- контракт чего либо - инвариант
+- в своих трудах Барбара Лисков строила свой анализ на основе контрактов класса: **предусловий, постусловий и инвариантов**
+
+#### Kotlin
+
+- object expressions are executed (and initialized) immediately, where they are used
+- object declarations are initialized lazily, when accessed for the first time
+- a companion object is initialized when the corresponding class is loaded (resolved), matching the semantics of a Java static initializer
+- the default upper bound (if none specified) is Any?
+- the name of the companion object can be omitted, in which case the name Companion will be used
+- in addition to `out`, Kotlin provides a complementary variance annotation: `in`. It makes a type parameter contravariant: it can only be consumed and never produced. A good example of a contravariant class is Comparable
+- deferred initialisation
+ - `If not null and else` shorthand
+ - execute `if not null`
+ - `return when`
+- `with` calling
+- labels for loops, return labels for functions
+- custom setters for must call functions that will set values to other properties
+- backing field `field`
+- compile time constants with `const`
+- you can declare properties in interfaces. A property declared in an interface can either be abstract, or it can provide implementations for accessors. Properties declared in interfaces **can't have backing fields**, and therefore accessors declared in interfaces can't reference them
+- extensions resolved statically 
+- in case of a name conflict between the members of the dispatch receiver and the extension receiver, the extension receiver takes precedence
+- extensions declared as members can be declared as open and overridden in subclasses. This means that the dispatch of such functions is virtual with regard to the dispatch receiver type, but static with regard to the extension receiver type
+- **in Kotlin, there is a way to explain this sort of thing to the compiler. This is called declaration-site variance: we can annotate the type parameter T of Source to make sure that it is only returned (produced) from members of Source<T>, and never consumed. To do this we provide the out modifier**
+- for maximum flexibility, use wildcard types on input parameters that represent producers or consumers
+wildcard type argument `?`
+
+#### Git
+
+- bisect
+- checkout to branch with dirty option
+- fast import
+- fast export
+
+- **group.com.littlebites.cache, group.com.littlebites.user** - Apple encourages to begin these with the group
+- typingAttributes for UITextField
+- cannot retain self on value type
