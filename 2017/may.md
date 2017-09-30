@@ -2,7 +2,7 @@
 
 ## 23
 
-- NS_INLINE
+- `NS_INLINE`
 - layout vs display (redraw)
 - инверсия приоритетов
 - состояние гонки
