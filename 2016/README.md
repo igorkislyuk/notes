@@ -335,14 +335,6 @@ move operations to background thread and refresh displayed content on the main t
 
 - SwiftyJSON is the niece lib for extracting values from json. Not for mapping
 
-#### 30.12
-
-- **6 hours away from coffee / alcohol**
-- exercising and **2 cups of water**
-- 15 minutes delta
-- fresh air & glass of water and cold water
-- **do not check emails, socials, other stuff**
-
 #### 31.12
 
 - entry point as a destination controller for testing

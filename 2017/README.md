@@ -1,16 +1,16 @@
 # 2017
 
 #### Winter
-- [January](january.md)
+- [January](01-january.md)
 
 #### Spring
-- [May](may.md)
+- [May](05-may.md)
 
 #### Summer
-- [June](june.md)
-- [July](july.md)
-- [August](august.md)
+- [June](06-june.md)
+- [July](07-july.md)
+- [August](08-august.md)
 
 #### Autumn
-- [September](september.md)
-- [October](october.md)
+- [September](09-september.md)
+- [October](10-october.md)
