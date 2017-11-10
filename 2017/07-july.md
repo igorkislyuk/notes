@@ -4,7 +4,6 @@
 
 - поле динамических данных **slug**. Например замена /blog/post/name-of-post на определенный идентификатор
 - middleware - `cookies`, `bodyParsers`
-- пустые UILabel - это default state
 
 ## 15
 
@@ -19,7 +18,7 @@
 
 ## 20
 
-- `yyyy` instead of `YYYY` in date formatter. What is difference?
+- `yyyy` is another calendar system instead of `YYYY` in date formatter.
 
 ## 29
 

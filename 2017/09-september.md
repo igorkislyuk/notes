@@ -1,12 +1,10 @@
 # September
 
-## 1
+## 01
 
-- `NSSet`
-- `NSOrderedSet`
-- `NSCountedSet`
+- `NSSet` & `NSOrderedSet` & `NSCountedSet`
 
-## 2
+## 02
 
 - `direct` dispatch
 - `table` dispatch
@@ -16,32 +14,32 @@
 - it is also possible to mark a method as finaland make the method available to message dispatch with `@objc`. This will cause invocations of the method to use direct dispatch, and will register the selector with the Objective-C runtime
 - `Optional` covariant not working
 
-## 4
+## 04
 
 - `DateInterval` from iOS 10
 
-## 5
+## 05
 
 - `Optional` as `AnyObject`
 
-## 6
+## 06
 
 - Buttons dispatch table
 - nil-target events. Works to first selector in Responder Chain
 - to disable non-english keyboards. Use keyboard settings for uitextfield
 
-## 7
+## 07
 
 - to disable shadow on `UISlider` simply set up image
 - for increasing hot spot override `pointInside:withEvent`
 - `xcrun ibtool --export-strings-file output.strings XIBNAME`
 - `xcrun genstrings SOURCE-CODE-PATH`
 
-## 8
+## 08
 
 - `addTarget(self, action: SELECTOR, for: .primaryActionTriggered)` from iOS 9
 
-## 9
+## 09
 
 - `NSTimer` retains object until it invalidated
 
@@ -49,18 +47,18 @@
 
 - You must use `copy` for all basic Objective-C type (aka `NSString`, `NSArray`), because you can pass mutable subclass and change object behinds back.
 
-
 ## 30
 
 - optional can be compared
 - `typedef NS_OPTIONS();`
-- if you want to be able to intercept an assignment and "veto" it, use `vetoable()` instead of `observable()`
 - `lexicographicallyPrecedes`
 - **type constructors — such as optionals or arrays — that support a map operation are sometimes referred to as functors**
 - контракт чего либо - инвариант
 - в своих трудах Барбара Лисков строила свой анализ на основе контрактов класса: **предусловий, постусловий и инвариантов**
+- **group.com.littlebites.cache, group.com.littlebites.user** - Apple encourages to begin these with the group
+- cannot retain self on value type
 
-#### Kotlin
+### Kotlin
 
 - object expressions are executed (and initialized) immediately, where they are used
 - object declarations are initialized lazily, when accessed for the first time
@@ -85,13 +83,8 @@
 - for maximum flexibility, use wildcard types on input parameters that represent producers or consumers
 wildcard type argument `?`
 
-#### Git
+### Git
 
-- bisect
 - checkout to branch with dirty option
 - fast import
 - fast export
-
-- **group.com.littlebites.cache, group.com.littlebites.user** - Apple encourages to begin these with the group
-- typingAttributes for UITextField
-- cannot retain self on value type

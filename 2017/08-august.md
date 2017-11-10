@@ -2,7 +2,6 @@
 
 ## 10
 
-- better reload whole table than single row / section using table director
 - carthage can be useful for dynamic libraries where only static for objc
 - optional enum for switch case
 
@@ -14,15 +13,11 @@
 ## Unsafe Swift
 
 - withUnsafeMemory
-
 - **UnsafePointer<T>, UnsafeRowPointer**
 - **UnsafeMutablePointer<T>, UnsafeMutableRowPointer**
-
 - withUnsafeBytes
-
 - same 4 pointer types, except there are operation with buffer instead of single pointer
 - **implicit conversion from variable to pointer using inout syntax**
-
 - 2 rules working with pointer types:
 	1. never escape the pointer you get in a withUnsafe- function, and
 	2. never, ever get the pointer to a variable through implicit conversion

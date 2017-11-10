@@ -11,3 +11,11 @@
 - [iOS App Reverse Engeneering](books-review/ios-app-reverse-engeneering.md)
 - [objc. Advanced Swift](books-review/objc-advanced-swift.md)
 - [Ry’s Objective-C Tutorial](books-review/ry-tutorial.md)
+
+Pro Objective-C 
+
+Awesome book. 10/10 for all iOS programmers. 
+
+Beginning objc 
+
+Cool book for newbies. 6/10 for intermediate level programmers
