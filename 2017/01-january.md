@@ -80,6 +80,29 @@
 
 - `NSEC_PER_SEC`
 
+## 30
+
+Apple Watch animations:
+
+- Implicit
+- Property
+- Picture
+
+To chain animation: use GCD
+
+## 31
+
+- Calls to any WCSession communication methods must happen after the WCSession object has an assigned delegate and is active 
+- There is only ever one session object per app — WCSession.default(), and only a single object can conform to the WCSessionDelegate protocol
+- There are two types of device-to-device communication in Watch Connectivity: **interactive messaging** and **background transfers** 
+
+**Capabilities**:
+
+- Audio: 32 kbps bit rate, AAC Stereo 
+- Video: H.264 high profile, 160 kbps bit rate, 30 FPS frame rate 
+- Video: full screen, 208x260 pixel resolution 
+- Video: 16:9 aspect ratio, 320x180 pixel resolution 
+
 ## Notifications
 
 - appears in iOS 3
