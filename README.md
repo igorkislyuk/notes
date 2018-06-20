@@ -1,6 +1,6 @@
-# iDSN (iOS Developement Significant Notes)
+# iOS Notes
 
-## Years
+## Years & stuff
 
 - [book-review](book-review.md)
 - [2016](2016/README.md)
